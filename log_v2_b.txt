@@ -1,0 +1,14 @@
+device=cuda  datasets=['mnist', 'fashion_mnist', 'har', 'isolet']  stages=['diagnostics', 'tune', 'main']  quick=False
+[diagnostics ] mnist          done in    11.9s  (runs stored: 1)
+[diagnostics ] fashion_mnist  done in    23.6s  (runs stored: 2)
+[diagnostics ] har            done in     7.7s  (runs stored: 3)
+[diagnostics ] isolet         done in     6.2s  (runs stored: 4)
+[tune        ] mnist          done in  1561.5s  (runs stored: 73)
+[tune        ] fashion_mnist  done in  1284.5s  (runs stored: 142)
+[tune        ] har            done in  1180.4s  (runs stored: 211)
+[tune        ] isolet         done in  1413.8s  (runs stored: 280)
+[main        ] mnist          done in  1140.5s  (runs stored: 345)
+[main        ] fashion_mnist  done in  1074.8s  (runs stored: 410)
+[main        ] har            done in   940.8s  (runs stored: 475)
+[main        ] isolet         done in  1175.3s  (runs stored: 540)
+finished.

@@ -1,0 +1,80 @@
+device=cuda  datasets=['breast_cancer', 'digits', 'mice_protein', 'anneal', 'coil20', 'cnae9', 'olivetti']  stages=['diagnostics', 'tune', 'main', 'ablation', 'permutation', 'sensitivity']  quick=False
+[diagnostics ] breast_cancer  done in     0.1s  (runs stored: 1)
+[diagnostics ] digits         done in     0.1s  (runs stored: 2)
+[diagnostics ] mice_protein   done in     5.2s  (runs stored: 3)
+[diagnostics ] anneal         done in     6.8s  (runs stored: 4)
+[diagnostics ] coil20         done in     1.7s  (runs stored: 5)
+[diagnostics ] cnae9          done in     5.3s  (runs stored: 6)
+downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /kaggle/working/dachp_revision/dachp/../data_cache
+[diagnostics ] olivetti       done in     2.0s  (runs stored: 7)
+[tune        ] breast_cancer  done in    77.8s  (runs stored: 52)
+[tune        ] digits         done in   152.9s  (runs stored: 97)
+[tune        ] mice_protein   done in    89.3s  (runs stored: 142)
+[tune        ] anneal         done in    70.5s  (runs stored: 187)
+[tune        ] coil20         done in   128.0s  (runs stored: 232)
+[tune        ] cnae9          done in    86.4s  (runs stored: 277)
+[tune        ] olivetti       done in    56.1s  (runs stored: 322)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] breast_cancer  done in    96.7s  (runs stored: 402)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] digits         done in   219.4s  (runs stored: 482)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] mice_protein   done in   125.3s  (runs stored: 562)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] anneal         done in   110.4s  (runs stored: 642)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] coil20         done in   190.3s  (runs stored: 722)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] cnae9          done in   151.0s  (runs stored: 802)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] olivetti       done in   114.8s  (runs stored: 882)
+[ablation    ] breast_cancer  done in    67.8s  (runs stored: 922)
+[ablation    ] digits         done in    89.0s  (runs stored: 962)
+[ablation    ] mice_protein   done in    71.4s  (runs stored: 1002)
+[ablation    ] anneal         done in    69.9s  (runs stored: 1042)
+[ablation    ] coil20         done in    88.6s  (runs stored: 1082)
+[ablation    ] cnae9          done in    74.3s  (runs stored: 1122)
+[ablation    ] olivetti       done in   146.6s  (runs stored: 1162)
+[permutation ] breast_cancer  done in     9.0s  (runs stored: 1167)
+[permutation ] digits         done in    11.2s  (runs stored: 1172)
+[permutation ] mice_protein   done in     9.8s  (runs stored: 1177)
+[permutation ] anneal         done in     8.9s  (runs stored: 1182)
+[permutation ] coil20         done in    10.7s  (runs stored: 1187)
+[permutation ] cnae9          done in    10.6s  (runs stored: 1192)
+[permutation ] olivetti       done in     9.1s  (runs stored: 1197)
+[sensitivity ] breast_cancer  done in    51.6s  (runs stored: 1227)
+[sensitivity ] digits         done in    70.0s  (runs stored: 1257)
+[sensitivity ] mice_protein   done in    59.6s  (runs stored: 1287)
+[sensitivity ] anneal         done in    55.7s  (runs stored: 1317)
+[sensitivity ] coil20         done in    63.8s  (runs stored: 1347)
+[sensitivity ] cnae9          done in    55.4s  (runs stored: 1377)
+[sensitivity ] olivetti       done in    54.3s  (runs stored: 1407)
+finished.

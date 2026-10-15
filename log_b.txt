@@ -1,0 +1,46 @@
+device=cuda  datasets=['mnist', 'fashion_mnist', 'har', 'isolet']  stages=['diagnostics', 'tune', 'main', 'ablation', 'permutation', 'sensitivity']  quick=False
+[diagnostics ] mnist          done in    18.3s  (runs stored: 1)
+[diagnostics ] fashion_mnist  done in    36.3s  (runs stored: 2)
+[diagnostics ] har            done in    17.9s  (runs stored: 3)
+[diagnostics ] isolet         done in    26.3s  (runs stored: 4)
+[tune        ] mnist          done in  1050.7s  (runs stored: 49)
+[tune        ] fashion_mnist  done in   982.0s  (runs stored: 94)
+[tune        ] har            done in   858.7s  (runs stored: 139)
+[tune        ] isolet         done in   796.2s  (runs stored: 184)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] mnist          done in  1338.4s  (runs stored: 264)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] fashion_mnist  done in  1277.5s  (runs stored: 344)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] har            done in  1205.7s  (runs stored: 424)
+Warning: random state is set to 0.
+Warning: random state is set to 1.
+Warning: random state is set to 2.
+Warning: random state is set to 3.
+Warning: random state is set to 4.
+[main        ] isolet         done in  1283.9s  (runs stored: 504)
+[ablation    ] mnist          done in   937.3s  (runs stored: 544)
+[ablation    ] fashion_mnist  done in   944.6s  (runs stored: 584)
+[ablation    ] har            done in   873.3s  (runs stored: 624)
+[ablation    ] isolet         done in  1248.5s  (runs stored: 664)
+[permutation ] mnist          done in   128.0s  (runs stored: 669)
+[permutation ] fashion_mnist  done in   127.8s  (runs stored: 674)
+[permutation ] har            done in   116.6s  (runs stored: 679)
+[permutation ] isolet         done in   168.9s  (runs stored: 684)
+[sensitivity ] mnist          done in   762.9s  (runs stored: 714)
+[sensitivity ] fashion_mnist  done in   762.3s  (runs stored: 744)
+[sensitivity ] har            done in   694.1s  (runs stored: 774)
+[sensitivity ] isolet         done in  1008.0s  (runs stored: 804)
+finished.
